@@ -1,0 +1,142 @@
+name: Extract uploaded ZIP and open PR
+
+on:
+  push:
+    paths:
+      - 'uploads/**/*.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract-and-pr:
+    runs-on: ubuntu-latest
+    env:
+      DEST: ""                # empty DEST => repo root
+      MAX_FILE_BYTES: 52428800  # 50 MB per-file
+      BLOCKED_EXTENSIONS: ""   # no blocked extensions by default
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Locate ZIP(s)
+        id: find
+        run: |
+          shopt -s globstar nullglob
+          zips=(uploads/**/*.zip)
+          if [ ${#zips[@]} -eq 0 ]; then
+            echo "found=" >> $GITHUB_OUTPUT
+          else
+            printf -v joined "%s " "${zips[@]}"
+            echo "found=${joined% }" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate & extract ZIP(s) (safe, preserves folders)
+        id: extract
+        if: steps.find.outputs.found != ''
+        run: |
+          set -euo pipefail
+          IFS=' ' read -r -a ZIP_FILES <<< "${{ steps.find.outputs.found }}"
+          DEST="${{ env.DEST }}"
+          if [ -z "$DEST" ]; then DEST="."; fi
+          mkdir -p "$DEST"
+
+          python3 - <<'PY'
+import os, sys, zipfile
+from pathlib import Path
+
+zip_files = os.environ['ZIP_LIST'].split(' ')
+dest = os.path.abspath(os.environ['DEST'])
+max_bytes = int(os.environ['MAX_FILE_BYTES'])
+blocked = {ext.lower() for ext in os.environ['BLOCKED_EXTENSIONS'].split(',') if ext}
+
+errors = []
+extracted = []
+
+for z in zip_files:
+    z = z.strip()
+    if not z:
+        continue
+    zpath = os.path.abspath(z)
+    if not os.path.exists(zpath):
+        errors.append(f"ZIP not found: {z}")
+        continue
+    with zipfile.ZipFile(zpath, 'r') as zf:
+        for info in zf.infolist():
+            name = info.filename
+            # Skip directory entries
+            if name.endswith('/'):
+                continue
+            # Normalize path to prevent zip-slip
+            target_path = os.path.normpath(os.path.join(dest, name))
+            if not (target_path == dest or target_path.startswith(dest + os.sep)):
+                errors.append(f"Unsafe path in {z}: {name}")
+                continue
+            # Size check
+            if info.file_size > max_bytes:
+                errors.append(f"File too large in {z}: {name} ({info.file_size} bytes)")
+                continue
+            # Extension blacklist
+            _, ext = os.path.splitext(name)
+            if ext and ext.lower() in blocked:
+                errors.append(f"Blocked extension in {z}: {name}")
+                continue
+            # Ensure parent dir exists
+            parent = os.path.dirname(target_path)
+            os.makedirs(parent, exist_ok=True)
+            # Extract the file (stream)
+            with zf.open(info) as src, open(target_path, 'wb') as dst:
+                while True:
+                    chunk = src.read(8192)
+                    if not chunk:
+                        break
+                    dst.write(chunk)
+            extracted.append(os.path.relpath(target_path, dest))
+print("EXTRACTED_COUNT=%d" % len(extracted))
+for e in extracted[:1000]:
+    print("EXTRACTED_FILE:", e)
+if errors:
+    print("ERRORS_FOUND:")
+    for e in errors[:100]:
+        print("-", e)
+    sys.exit(2)
+PY
+        env:
+          ZIP_LIST: ${{ steps.find.outputs.found }}
+          DEST: ${{ env.DEST }}
+          MAX_FILE_BYTES: ${{ env.MAX_FILE_BYTES }}
+          BLOCKED_EXTENSIONS: ${{ env.BLOCKED_EXTENSIONS }}
+
+      - name: Create branch, commit extracted files (if any)
+        id: create_branch
+        if: steps.find.outputs.found != ''
+        run: |
+          set -euo pipefail
+          BRANCH="unzip/${{ github.run_id }}-${{ github.run_number }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Add files extracted from uploaded ZIP(s) (${GITHUB_SHA})"
+            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.create_branch.outputs.no_changes == 'false'
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add files extracted from uploaded ZIP(s)"
+          branch: ${{ steps.create_branch.outputs.branch }}
+          base: ${{ github.event.repository.default_branch }}
+          title: "Add files extracted from uploaded ZIP(s)"
+          body: |
+            This PR was created automatically by the unzip workflow.
+            It adds files extracted from the uploaded ZIP(s).
