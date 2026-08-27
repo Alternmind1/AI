@@ -1,0 +1,134 @@
+[
+  {
+    "id": "app-content-writer",
+    "name": "Content Writer",
+    "description": "Generate blog posts, marketing copy, and long-form content with AI.",
+    "category": "Writing",
+    "icon": "PenLine",
+    "color": "#00D4FF",
+    "href": "/dashboard/apps/content-writer",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-code-assistant",
+    "name": "Code Assistant",
+    "description": "Write, review, and debug code across any language or framework.",
+    "category": "Development",
+    "icon": "Code2",
+    "color": "#7C3AED",
+    "href": "/dashboard/apps/code-assistant",
+    "badge": "Popular",
+    "status": "active"
+  },
+  {
+    "id": "app-data-analyzer",
+    "name": "Data Analyzer",
+    "description": "Upload spreadsheets and get instant insights, charts, and summaries.",
+    "category": "Analytics",
+    "icon": "BarChart2",
+    "color": "#0054ff",
+    "href": "/dashboard/apps/data-analyzer",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-image-generator",
+    "name": "Image Generator",
+    "description": "Create stunning visuals, product images, and marketing assets.",
+    "category": "Creative",
+    "icon": "ImagePlus",
+    "color": "#ff2b00",
+    "href": "/dashboard/apps/image-generator",
+    "badge": "New",
+    "status": "active"
+  },
+  {
+    "id": "app-email-composer",
+    "name": "Email Composer",
+    "description": "Draft professional emails, newsletters, and outreach sequences.",
+    "category": "Writing",
+    "icon": "Mail",
+    "color": "#059669",
+    "href": "/dashboard/apps/email-composer",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-research-assistant",
+    "name": "Research Assistant",
+    "description": "Summarize documents, extract key insights, and synthesize information.",
+    "category": "Research",
+    "icon": "Search",
+    "color": "#D97706",
+    "href": "/dashboard/apps/research-assistant",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-meeting-notes",
+    "name": "Meeting Notes",
+    "description": "Transcribe, summarize, and extract action items from meetings.",
+    "category": "Productivity",
+    "icon": "ClipboardList",
+    "color": "#0891B2",
+    "href": "/dashboard/apps/meeting-notes",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-seo-optimizer",
+    "name": "SEO Optimizer",
+    "description": "Analyze and improve content for search engine visibility.",
+    "category": "Marketing",
+    "icon": "TrendingUp",
+    "color": "#7C3AED",
+    "href": "/dashboard/apps/seo-optimizer",
+    "badge": "Beta",
+    "status": "active"
+  },
+  {
+    "id": "app-social-media",
+    "name": "Social Media",
+    "description": "Create and schedule posts across all major social platforms.",
+    "category": "Marketing",
+    "icon": "Share2",
+    "color": "#EC4899",
+    "href": "/dashboard/apps/social-media",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-translation",
+    "name": "Translator",
+    "description": "Translate content into 50+ languages with cultural context.",
+    "category": "Language",
+    "icon": "Languages",
+    "color": "#00D4FF",
+    "href": "/dashboard/apps/translation",
+    "badge": "",
+    "status": "active"
+  },
+  {
+    "id": "app-chatbot-builder",
+    "name": "Chatbot Builder",
+    "description": "Build and deploy custom AI chatbots for your website or app.",
+    "category": "Development",
+    "icon": "Bot",
+    "color": "#0054ff",
+    "href": "/dashboard/apps/chatbot-builder",
+    "badge": "New",
+    "status": "active"
+  },
+  {
+    "id": "app-pdf-analyzer",
+    "name": "PDF Analyzer",
+    "description": "Extract, summarize, and query information from PDF documents.",
+    "category": "Research",
+    "icon": "FileText",
+    "color": "#DC2626",
+    "href": "/dashboard/apps/pdf-analyzer",
+    "badge": "",
+    "status": "active"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your personal information and preferences.",
+    "nameLabel": "Full name",
+    "emailLabel": "Email address",
+    "emailNote": "Your email is used for sign-in and cannot be changed here.",
+    "saveLabel": "Save changes",
+    "savedLabel": "Saved!",
+    "avatarAlt": "Profile avatar"
+  },
+  "password": {
+    "title": "Password",
+    "subtitle": "Update your password to keep your account secure.",
+    "currentLabel": "Current password",
+    "newLabel": "New password",
+    "confirmLabel": "Confirm new password",
+    "hint": "Must be at least 8 characters with uppercase, number, and special character.",
+    "saveLabel": "Update password",
+    "savedLabel": "Password updated!"
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "Manage your workspace members and their access levels.",
+    "inviteLabel": "Invite member",
+    "invitePlaceholder": "colleague@company.com",
+    "inviteButton": "Send invite",
+    "membersHeading": "Members",
+    "roles": [
+      "Admin",
+      "Editor",
+      "Viewer"
+    ],
+    "emptyState": "No team members yet. Invite someone to get started."
+  },
+  "danger": {
+    "title": "Danger zone",
+    "deleteLabel": "Delete account",
+    "deleteDescription": "Permanently delete your account and all associated data. This action cannot be undone.",
+    "deleteConfirm": "Are you sure? This will permanently delete your account."
+  },
+  "nav": [
+    {
+      "id": "nav-profile",
+      "label": "Profile",
+      "icon": "User"
+    },
+    {
+      "id": "nav-password",
+      "label": "Password",
+      "icon": "Lock"
+    },
+    {
+      "id": "nav-team",
+      "label": "Team",
+      "icon": "Users"
+    },
+    {
+      "id": "nav-danger",
+      "label": "Danger zone",
+      "icon": "AlertTriangle"
+    }
+  ]
+}

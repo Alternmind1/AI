@@ -1,0 +1,73 @@
+{
+  "greeting": "Good morning",
+  "subtitle": "Here's your AI workspace overview.",
+  "stats": [
+    {
+      "id": "stat-1",
+      "label": "AI Apps Available",
+      "value": "12",
+      "change": "+3 this month"
+    },
+    {
+      "id": "stat-2",
+      "label": "Tasks Completed",
+      "value": "284",
+      "change": "+18% this week"
+    },
+    {
+      "id": "stat-3",
+      "label": "Time Saved",
+      "value": "47h",
+      "change": "this month"
+    },
+    {
+      "id": "stat-4",
+      "label": "Team Members",
+      "value": "8",
+      "change": "active now"
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "act-1",
+      "app": "Content Writer",
+      "action": "Generated blog post draft",
+      "time": "2 min ago"
+    },
+    {
+      "id": "act-2",
+      "app": "Data Analyzer",
+      "action": "Processed Q3 sales report",
+      "time": "1 hr ago"
+    },
+    {
+      "id": "act-3",
+      "app": "Image Generator",
+      "action": "Created 6 product visuals",
+      "time": "3 hr ago"
+    },
+    {
+      "id": "act-4",
+      "app": "Code Assistant",
+      "action": "Reviewed pull request #142",
+      "time": "Yesterday"
+    }
+  ],
+  "quickActions": [
+    {
+      "id": "qa-1",
+      "label": "New Task",
+      "icon": "Plus"
+    },
+    {
+      "id": "qa-2",
+      "label": "Invite Member",
+      "icon": "UserPlus"
+    },
+    {
+      "id": "qa-3",
+      "label": "View Reports",
+      "icon": "BarChart2"
+    }
+  ]
+}

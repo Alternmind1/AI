@@ -1,0 +1,160 @@
+{
+  "pages/home/hero-neural": {
+    "requestedSize": {
+      "width": 1536,
+      "height": 900,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "compositions": "wide_shot",
+    "moods": "bold,vivid",
+    "graphicalStyles": "photography",
+    "numberOfPeople": "one",
+    "minimumSize": "x_large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2265894409",
+    "searchQuery": "person sitting at bright glowing desktop computer monitor dark room neon light technology workspace",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2150307907",
+      "https://img1.wsimg.com/isteam/getty/2285306275",
+      "https://img1.wsimg.com/isteam/getty/2204376755",
+      "https://img1.wsimg.com/isteam/getty/1455656615",
+      "https://img1.wsimg.com/isteam/getty/1430862702"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-14T16:59:30.797Z",
+    "lastUpdated": "2026-08-14T19:12:31.919Z",
+    "gettyId": "2265894409",
+    "alternativeGettyIds": [
+      "2150307907",
+      "2285306275",
+      "2204376755",
+      "1455656615",
+      "1430862702"
+    ]
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png",
+    "searchQuery": "A stylized neural brain mark — an abstract brain silhouette composed of intercon",
+    "alternatives": [],
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-original-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+    },
+    "mockupUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+    },
+    "landscapeMockupUrlMap": {},
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png": {
+        "sessionId": "5129330c-d94d-43b9-9ee7-8bd44937d8cd",
+        "logoId": "7f6b6f43-4d82-40d5-ab20-9120cc094658",
+        "groupId": "bca50d18-c942-4d2b-9efd-1b8ead166770"
+      }
+    },
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-mug-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-card-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-tshirt-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-box-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-mug-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-card-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-tshirt-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-mockup-box-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png"
+      }
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-14T16:59:39.755Z",
+    "lastUpdated": "2026-08-14T17:00:29.222Z",
+    "surfaceMode": "dark",
+    "generatedForSurfaceColor": "#050D1A",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/5129330c-d94d-43b9-9ee7-8bd44937d8cd/horizontal-transparent-7f6b6f43-4d82-40d5-ab20-9120cc094658/logo-logo.png",
+    "logoGroupId": "bca50d18-c942-4d2b-9efd-1b8ead166770"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/dd517724-b730-4c31-8fef-e819e5875430/favicon-transparent-ac34462f-2e56-4e2d-8985-031e1f28d3ee/logo-logo.png",
+    "searchQuery": "favicon",
+    "alternatives": [],
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/dd517724-b730-4c31-8fef-e819e5875430/favicon-transparent-ac34462f-2e56-4e2d-8985-031e1f28d3ee/logo-logo.png": {
+        "sessionId": "dd517724-b730-4c31-8fef-e819e5875430",
+        "logoId": "ac34462f-2e56-4e2d-8985-031e1f28d3ee",
+        "groupId": "bca50d18-c942-4d2b-9efd-1b8ead166770"
+      }
+    },
+    "logoGroupId": "bca50d18-c942-4d2b-9efd-1b8ead166770",
+    "userModified": false,
+    "createdAt": "2026-08-14T17:00:01.173Z",
+    "lastUpdated": "2026-08-14T17:00:29.368Z",
+    "surfaceMode": "dark",
+    "generatedForSurfaceColor": "#050D1A",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/63615056-8b1b-4123-853c-30b6f90661e0/session/dd517724-b730-4c31-8fef-e819e5875430/favicon-transparent-ac34462f-2e56-4e2d-8985-031e1f28d3ee/logo-logo.png"
+  },
+  "pages/gridspace/hero": {
+    "requestedSize": {
+      "width": 1600,
+      "height": 900,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "compositions": "wide_shot",
+    "moods": "dramatic,bold",
+    "graphicalStyles": "photography",
+    "minimumSize": "x_large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2212436722",
+    "searchQuery": "global supply chain network logistics technology dark futuristic",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1456147420",
+      "https://img1.wsimg.com/isteam/getty/1746262903",
+      "https://img1.wsimg.com/isteam/getty/1459640603",
+      "https://img1.wsimg.com/isteam/getty/1408905129"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-18T22:02:07.581Z",
+    "lastUpdated": "2026-08-18T22:02:07.581Z",
+    "gettyId": "2212436722",
+    "alternativeGettyIds": [
+      "1456147420",
+      "1746262903",
+      "1459640603",
+      "1408905129"
+    ]
+  }
+}

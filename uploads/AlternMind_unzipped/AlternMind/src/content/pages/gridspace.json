@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "badge": "Production Schedule Coordination",
+    "headline": "Optimise Your Production Schedule Network",
+    "subheadline": "GridSpace connects manufacturers, warehouse providers, and transport companies — then uses quantum-powered optimisation to coordinate production schedules across the entire chain, cutting costs, lead times, and idle capacity.",
+    "ctaPrimary": "Log in to get started",
+    "ctaSecondary": "See How It Works",
+    "stat1Value": "40%",
+    "stat1Label": "Average cost reduction",
+    "stat2Value": "3×",
+    "stat2Label": "Faster schedule coordination",
+    "stat3Value": "100+",
+    "stat3Label": "Network participants"
+  },
+  "valueProp": {
+    "eyebrow": "Why GridSpace",
+    "headline": "Coordinate production schedules across your entire supply chain.",
+    "body": "GridSpace is a production schedule coordination platform. It connects manufacturers, warehouse providers, and transport companies into a shared network — then uses a quantum-classical solver to find the optimal production schedule across all participants, minimising cost, lead time, and idle capacity simultaneously.",
+    "points": [
+      {
+        "id": "vp1",
+        "title": "Shared production visibility",
+        "description": "Every participant registers their real capacity windows, production slots, and constraints. GridSpace builds a live picture of what the whole network can actually deliver — and when."
+      },
+      {
+        "id": "vp2",
+        "title": "Coordinated schedule optimisation",
+        "description": "The solver allocates production runs, warehouse slots, and transport lanes together — not in isolation. The result is a coordinated schedule that eliminates bottlenecks and idle time across the chain."
+      },
+      {
+        "id": "vp3",
+        "title": "Re-coordinate on demand",
+        "description": "When a production line goes down, a shipment is delayed, or demand shifts — re-run the optimiser in seconds. The revised schedule accounts for every constraint across every participant."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "headline": "From network to coordinated schedule in three steps",
+    "steps": [
+      {
+        "id": "s1",
+        "number": "01",
+        "title": "Register your company",
+        "description": "Add your production facilities, warehouses, or transport routes with real capacity windows, slot availability, cost, and location data. You become a live node in the GridSpace coordination network."
+      },
+      {
+        "id": "s2",
+        "number": "02",
+        "title": "Define your production requirements",
+        "description": "Specify product type, quantity, delivery window, quality standards, and budget constraints. Set hard limits or let the solver balance trade-offs across the network automatically."
+      },
+      {
+        "id": "s3",
+        "number": "03",
+        "title": "Get your coordinated production schedule",
+        "description": "The hybrid quantum-classical solver evaluates every possible allocation across all participants and returns a fully coordinated production schedule — with cost, lead-time, and capacity breakdown."
+      }
+    ]
+  },
+  "participants": {
+    "eyebrow": "Who joins GridSpace",
+    "headline": "Every node in the production chain, coordinated",
+    "intro": "GridSpace works because every participant contributes real capacity and schedule data. The more companies that join, the better the coordination gets for everyone.",
+    "items": [
+      {
+        "id": "p1",
+        "type": "manufacturer",
+        "label": "Manufacturers",
+        "tagline": "Fill production slots. Eliminate idle capacity.",
+        "description": "Register your production facilities with capacity windows, run rates, product types, and unit cost. GridSpace coordinates your schedule with upstream suppliers and downstream logistics so every slot is filled efficiently — and you're never waiting on a partner."
+      },
+      {
+        "id": "p2",
+        "type": "warehouse",
+        "label": "Warehouse Providers",
+        "tagline": "Synchronise inbound flows. Reduce dwell time.",
+        "description": "List your available CBM, storage types, handling rates, and daily cost. GridSpace coordinates production run timing with your inbound capacity so goods arrive when you have space — not before, not after."
+      },
+      {
+        "id": "p3",
+        "type": "transport",
+        "label": "Transport Companies",
+        "tagline": "Load lanes on schedule. Cut empty miles.",
+        "description": "Define your origin-destination routes with transit times, mode, and freight cost. The scheduler times production completions and warehouse releases to match your departure windows — giving you full loads and fewer empty runs."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Platform capabilities",
+    "headline": "Everything your production network needs",
+    "items": [
+      {
+        "id": "f1",
+        "icon": "Globe",
+        "title": "Live capacity network",
+        "description": "Every manufacturer, warehouse, and carrier registers real production slots, capacity windows, and availability — not estimates. The scheduler works from ground truth."
+      },
+      {
+        "id": "f2",
+        "icon": "Zap",
+        "title": "Quantum schedule optimisation",
+        "description": "Hybrid quantum-classical solver coordinates production runs, storage slots, and transport lanes simultaneously — finding the schedule that minimises cost and lead time across the whole chain."
+      },
+      {
+        "id": "f3",
+        "icon": "BarChart3",
+        "title": "Cost & utilisation analytics",
+        "description": "Drill into production cost, storage cost, and transport cost by participant, lane, or time period. See exactly where idle capacity and schedule gaps are costing you."
+      },
+      {
+        "id": "f4",
+        "icon": "ShieldCheck",
+        "title": "Constraint engine",
+        "description": "Encode minimum run quantities, capacity windows, quality certifications, regulatory requirements, and custom business rules as hard or soft constraints on every schedule."
+      },
+      {
+        "id": "f5",
+        "icon": "RefreshCw",
+        "title": "Re-coordinate on demand",
+        "description": "Production line down? Shipment delayed? Demand spike? Re-run the scheduler in seconds to get a revised, fully coordinated schedule across all participants."
+      },
+      {
+        "id": "f6",
+        "icon": "Plug",
+        "title": "API-first integration",
+        "description": "Connect your ERP, MES, WMS, or TMS via REST API. GridSpace acts as the coordination and optimisation layer between your existing production systems."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Your coordinated production schedule is waiting",
+    "subheadline": "Join manufacturers, warehouse providers, and logistics companies already using GridSpace to coordinate production schedules, cut costs, and hit delivery targets.",
+    "ctaPrimary": "Log in to get started",
+    "ctaSecondary": "Go to dashboard"
+  }
+}

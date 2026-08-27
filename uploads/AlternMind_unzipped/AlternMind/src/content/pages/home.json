@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "eyebrow": "AI-powered platform for teams",
+    "headline": "Unlock the Power of AI for Your Team",
+    "subheadline": "AlternMind gives your team instant access to powerful AI tools — all in one intelligent platform built for the way modern businesses work.",
+    "ctaPrimary": "Get Started Free",
+    "ctaSecondary": "Sign In"
+  },
+  "features": {
+    "sectionLabel": "Why AlternMind",
+    "headline": "Everything your team needs to work smarter",
+    "items": [
+      {
+        "id": "feat-1",
+        "stat": "10x",
+        "statLabel": "Faster workflows",
+        "title": "Launch AI Tools Instantly",
+        "description": "Access a curated suite of AI-powered tools from a single dashboard. No setup friction — just select an app and get to work in seconds."
+      },
+      {
+        "id": "feat-2",
+        "stat": "100%",
+        "statLabel": "Team-ready",
+        "title": "Built for Teams",
+        "description": "Collaborate seamlessly with role-based access, shared workspaces, and activity visibility across your entire organization."
+      },
+      {
+        "id": "feat-3",
+        "stat": "∞",
+        "statLabel": "Possibilities",
+        "title": "Your Workflow, Your Way",
+        "description": "Customize which AI apps your team sees, set permissions, and tailor the platform to match exactly how your business operates."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Getting started",
+    "headline": "Up and running in minutes",
+    "steps": [
+      {
+        "id": "step-1",
+        "number": "01",
+        "title": "Sign Up",
+        "description": "Create your account in under 60 seconds. No credit card required."
+      },
+      {
+        "id": "step-2",
+        "number": "02",
+        "title": "Choose Your AI App",
+        "description": "Browse the app panel and select the AI tool that fits your task."
+      },
+      {
+        "id": "step-3",
+        "number": "03",
+        "title": "Get to Work",
+        "description": "Launch your chosen app and start producing results immediately."
+      }
+    ]
+  },
+  "trustBar": {
+    "headline": "Trusted by forward-thinking teams",
+    "companies": [
+      {
+        "id": "co-1",
+        "name": "Apex Ventures"
+      },
+      {
+        "id": "co-2",
+        "name": "NovaTech"
+      },
+      {
+        "id": "co-3",
+        "name": "Meridian Group"
+      },
+      {
+        "id": "co-4",
+        "name": "Stratos Labs"
+      },
+      {
+        "id": "co-5",
+        "name": "Crestline Co."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to transform how your team works?",
+    "subheadline": "Join thousands of professionals already using AlternMind to do more with AI.",
+    "buttonLabel": "Create Your Free Account",
+    "note": "Free to start. No credit card needed."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "placeholderHeading": "This tool is coming soon",
+  "placeholderBody": "We're building something powerful here. Check back soon or explore another AI app from your dashboard.",
+  "backLabel": "Back to Dashboard",
+  "launchLabel": "Launch App",
+  "tryLabel": "Try a sample prompt",
+  "samplePrompts": [
+    {
+      "id": "sp-1",
+      "text": "Summarize this document in 3 bullet points"
+    },
+    {
+      "id": "sp-2",
+      "text": "Write a professional email about project delays"
+    },
+    {
+      "id": "sp-3",
+      "text": "Analyze the key trends in this data"
+    },
+    {
+      "id": "sp-4",
+      "text": "Generate 5 creative headline variations"
+    }
+  ],
+  "inputPlaceholder": "Describe what you want to create or analyze…",
+  "outputPlaceholder": "Your AI-generated output will appear here.",
+  "tipLabel": "Pro tip",
+  "tipText": "Be specific in your prompts for better results. Include context, tone, and desired format."
+}
